@@ -1,0 +1,156 @@
+/*global-start*/
+body {
+  margin: 0px;
+  padding: 0px;
+  font: normal 13px verdana;
+  line-height: normal;
+}
+html{
+	box-sizing: border-box;}
+img {
+  border: 0px;
+  max-width:100%;
+
+}
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
+}
+ul, ol {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+a, a:hover {
+  text-decoration: none;
+  outline:none;
+}
+/*global-end*/
+
+
+/*body-start*/
+
+.header-container{
+	float:left;
+	width:100%;
+	clear:both;
+}
+.crispy-news-menu-main{
+	max-width:1366px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.crispy-news-menu-container{
+	display:block;
+	width:100%;
+	margin:0px auto;
+	clear:both;
+	font-family: 'Butterfly Kids', cursive;
+	font-size:16px;
+	font-weight:bold;
+	background-color:black;
+	padding:10px 0px 10px 0px;
+	box-sizing:border-box;
+	
+}
+.strip{
+	margin-left:2%;
+	margin-top:6px;
+}
+.menu{
+	width:100%;
+	float:left;
+	clear:both;
+}
+.menu a{
+	color:white;
+}
+.menu ul li{
+	float:left;	
+}
+.crispy-news-logo{
+	width:90%;
+	float:left;
+	margin-bottom:2px;
+	margin-left:2%;
+	font-family: 'Lily Script One', cursive;
+	font-weight: 100;
+	font-size:25px;
+	text-align: center;
+	
+}
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+/*body-end*/
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.row{
+	margin: 25px 10% 40px 10%;
+}
+.container {
+	padding: 10px 10% 25px 10%;
+}
+.headlines{
+	font-size: 75px;
+    font-family: 'Cookie', cursive;
+    width: 100%;
+    text-align: center;
+    margin: 25px auto;
+}
+
+
+
+
+
+
+
